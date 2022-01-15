@@ -36,11 +36,9 @@ Simple API to generate random UUID and timestamp
 
 1. Head to https://localhost:5000
 
-- Assuming that you are doing your development on a localhost, you have to expose your application living in the webroot of your localhost to the internet via a application like [heroku](https://dashboard.heroku.com/). Otherwise, if your server has a public IP, you are good to go! Your URL callback for this demo will become:
- https://github.com/MikeSoft007/randomnum/
+- Assuming that you are doing your development on a localhost, you have to expose your application living in the webroot of your localhost to the internet via a application like [heroku](https://dashboard.heroku.com/).
 
-- This application has been developed on an Ubuntu 21.04LTS and lives in the web root at https://mikeapi.herokuapp.com/. Courtesy of Heroku, the publicly accessible url is: https://mikeapi.herokuapp.com/ (instead of http://localhost) which is referenced in the code as well. 
-(Create your own which will be different or use the same.)
+- This application has been developed on an Ubuntu 21.04LTS. Courtesy of Heroku, the publicly accessible url is: https://mikeapi.herokuapp.com/ (instead of http://localhost) which is referenced in the code as well. 
 
 - The webhook or callback to this application therefore becomes: 
 https://mikeapi.herokuapp.com/. 
@@ -49,4 +47,4 @@ https://mikeapi.herokuapp.com/.
 ```
 
 
-- All correspondences should be directed to mekpenyong2@gmail.com
+- Written with <3 by mekpenyong2@gmail.com
